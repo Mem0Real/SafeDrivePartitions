@@ -1,0 +1,115 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.section-padding{
+	 padding: 100px 0;
+}
+.section-header{
+	padding: 100px;
+}
+.navbar-brand{
+	color: #fff !important;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-area{
+	background: #262626;
+}
+.navbar-nav .nav-link{
+	padding-right: 0;
+	padding-left: 0;
+	color: #fff !important;
+	font-weight: bold;
+}
+.nav-item {
+	color: #fff;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+/*	Slider Area */
+.slider-area{
+	background: linear-gradient(360deg, #000, transparent), url(images/feres.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	color: #fff;
+	position: relative;	
+}
+.slider-area::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.slider-text h1{
+	font-size: 45px;
+	font-weight: bold;
+}
+.slider-text button{
+	padding: 10px 15px;
+	background-color: #010100cc;
+	color: #fff;
+	display: inline-block;
+	margin-top: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 15em 1em 15em 3em;
+}
+.slider-text{
+	text-align: center;
+	padding-top: 20%;
+}
+.slider-message{
+	position: absolute;
+	right: 0;
+	top: 50;
+	margin-top: 15px;
+	padding-top: 5%;
+}
+table { 
+    table-layout:fixed;
+}
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+/* Image ful sc */
+
+.portifolioImages{
+	padding-top: 10px;
+
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* Footer */
+.footer-area{
+	background: #262626;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
